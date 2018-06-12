@@ -1,0 +1,17 @@
+{
+  "data": {
+    "id": "ef933328-98b4-45f2-a614-89067b5923df",
+    "type": "articles",
+    "links": {
+      "self": "http://example.com/articles/ef933328-98b4-45f2-a614-89067b5923df"
+    },
+    "relationships": {
+      "comments": {
+        "links": {
+          "self": "http://example.com/articles/ef933328-98b4-45f2-a614-89067b5923df/relationships/comments",
+          "related": "http://example.com/articles/ef933328-98b4-45f2-a614-89067b5923df/comments"
+        }
+      }
+    }
+  }
+}
