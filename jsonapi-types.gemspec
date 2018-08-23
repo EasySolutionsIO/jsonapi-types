@@ -25,10 +25,10 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "dry-types", "~> 0.13"
 
   spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "pry"
-  spec.add_development_dependency "pry-byebug"
+  spec.add_development_dependency "pry", "~> 0.11"
+  spec.add_development_dependency "pry-byebug", "~> 3.6"
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "rspec_junit_formatter"
-  spec.add_development_dependency "simplecov"
+  spec.add_development_dependency "rspec_junit_formatter", "~> 0.4"
+  spec.add_development_dependency "simplecov", "~> 0.16"
 end
