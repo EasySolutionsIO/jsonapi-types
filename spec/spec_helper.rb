@@ -4,7 +4,7 @@ require "simplecov"
 SimpleCov.start
 
 require "bundler/setup"
-require "jsonapi/types"
+require "jsonapi-types"
 require "pry"
 require "pry-byebug"
 
