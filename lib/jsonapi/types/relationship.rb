@@ -2,6 +2,7 @@
 
 module JSONAPI
   module Types
+    # @see http://jsonapi.org/format/#document-resource-object-relationships
     class Relationship < Base
       attribute :data, JSONAPI::Types::Linkage.meta(omittable: true)
       attribute :meta, JSONAPI::Types::Meta.meta(omittable: true)

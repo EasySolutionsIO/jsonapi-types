@@ -2,6 +2,7 @@
 
 module JSONAPI
   module Types
+    # @see http://jsonapi.org/format/#document-resource-objects
     class Resource < Base
       transform_keys { |key| { attributes: :resource_attributes }.fetch(key.to_sym, key.to_sym) }
 
