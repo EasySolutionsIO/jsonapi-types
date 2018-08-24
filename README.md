@@ -33,8 +33,14 @@ gem "jsonapi-types"
 
 ```ruby
 require "jsonapi-types"
+
 payload  = { data: { id: "1", type: "users" } } # or a JSON string
-document = JSONAPI::Types::Document.parse(payload)
+document = JSONAPI::Types::Success.parse(payload)
+=> #<JSONAPI::Types::Success links=nil jsonapi=nil data=#<JSONAPI::Types::Resource id="1" type="users" resource_attributes={} relationships=nil links=nil> meta=nil included=nil>
+
+payload  = { errors: [{ id: "100", titee: "Invalid name." }] } # or a JSON string
+document = JSONAPI::Types::Failure.parse(payload)
+=> #<JSONAPI::Types::Failure links=nil jsonapi=nil meta=nil errors=[#<JSONAPI::Types::Error id="100" code=nil title=nil detail=nil status=nil meta=nil links=nil source=nil>]>
 ```
 
 ## Tests
