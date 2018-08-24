@@ -2,6 +2,7 @@
 
 module JSONAPI
   module Types
+    # @see http://jsonapi.org/format/#document-structure
     class Document < Base
       attribute :links, JSONAPI::Types::Links.meta(omittable: true)
       attribute :jsonapi, JSONAPI::Types::JSONAPIObject.meta(omittable: true)

@@ -2,6 +2,7 @@
 
 module JSONAPI
   module Types
+    # @see http://jsonapi.org/format/#errors
     class Error < Base
       attribute :id, Types::String.meta(omittable: true)
       attribute :code, Types::String.meta(omittable: true)
