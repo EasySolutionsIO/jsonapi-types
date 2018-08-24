@@ -1,5 +1,8 @@
 # JSONAPI::Types
 
+[![Gem](https://img.shields.io/gem/v/jsonapi-types.svg?style=flat)](http://rubygems.org/gems/jsonapi-types)
+[![CircleCI](https://img.shields.io/circleci/project/github/InspireNL/jsonapi-types.svg)](https://circleci.com/gh/InspireNL/jsonapi-types)
+
 Implementation of the JSON:API Spec definitions using inmutable types.
 
 ## Main Types
