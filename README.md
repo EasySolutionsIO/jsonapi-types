@@ -1,7 +1,11 @@
 # JSONAPI::Types
 
 [![Gem](https://img.shields.io/gem/v/jsonapi-types.svg?style=flat)](http://rubygems.org/gems/jsonapi-types)
-[![CircleCI](https://img.shields.io/circleci/project/github/InspireNL/jsonapi-types.svg)](https://circleci.com/gh/InspireNL/jsonapi-types)
+[![Depfu](https://badges.depfu.com/badges/757248bde8db69faea3f3910744e23e3/overview.svg)](https://depfu.com/github/InspireNL/jsonapi-types?project_id=5749)
+[![Inline docs](http://inch-ci.org/github/InspireNL/jsonapi-types.svg?branch=master&style=shields)](http://inch-ci.org/github/InspireNL/jsonapi-types)
+[![CircleCI](https://circleci.com/gh/InspireNL/jsonapi-types.svg?style=svg)](https://circleci.com/gh/InspireNL/jsonapi-types)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f4602bf3f992e49ce931/maintainability)](https://codeclimate.com/github/InspireNL/jsonapi-types/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f4602bf3f992e49ce931/test_coverage)](https://codeclimate.com/github/InspireNL/jsonapi-types/test_coverage)
 
 Implementation of the [JSON:API Spec](http://jsonapi.org) definitions using inmutable types.
 

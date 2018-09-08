@@ -2,8 +2,15 @@
 
 ## [Unreleased]
 
-## Changed
+### Added
 
+- Depfu badge.
+- Code Climate badges.
+- InchCI badge.
+
+### Changed
+
+- Update CircleCI badge.
 - Fix link to LINCENSE on README.
 
 ## 0.1.1 - 2018-08-23
