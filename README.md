@@ -62,4 +62,4 @@ Read [Semantic Versioning](https://semver.org) for details. Briefly, it means:
 ## License
 
 Copyright 2018 [Inspire Innovation BV](https://inspire.nl).
-Read [LICENSE](LICENSE.md) for details.
+Read [LICENSE](LICENSE) for details.

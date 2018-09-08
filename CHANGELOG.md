@@ -1,6 +1,12 @@
 # Changelog
 
-## [0.1.1] 2018-08-23
+## [Unreleased]
+
+## Changed
+
+- Fix link to LINCENSE on README.
+
+## 0.1.1 - 2018-08-23
 
 ### Removed
 
@@ -11,7 +17,7 @@
 - Update dependencies.
 - Update gemspec file.
 
-## [0.1.0] 2018-06-12
+## 0.1.0 - 2018-06-12
 
 ### Added
 
