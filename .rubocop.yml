@@ -1,7 +1,4 @@
-AllCops:
-  Include:
-    - Gemfile
-  TargetRubyVersion: 2.5
+require: rubocop-rspec
 
 Layout/AlignHash:
   EnforcedLastArgumentHashStyle: ignore_implicit
@@ -20,6 +17,10 @@ Layout/SpaceBeforeFirstArg:
 
 Metrics/CyclomaticComplexity:
   Max: 10
+
+Metrics/BlockLength:
+  Exclude:
+    - "*.gemspec"
 
 Metrics/LineLength:
   Enabled: true
