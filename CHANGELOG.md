@@ -12,11 +12,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Depfu badge.
 - Code Climate badges.
 - InchCI badge.
+- `.ruby-version` file.
+- Rubocop and Rubocop RSpec gems for development.
 
 ### Changed
 
 - Update CircleCI badge.
 - Fix link to LINCENSE on README.
+- Refactor specs.
+- Update Rubocop config.
 
 ## 0.1.1 - 2018-08-23
 
