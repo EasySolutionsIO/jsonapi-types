@@ -4,8 +4,6 @@ require "dry-types"
 require "dry-struct"
 require "json"
 
-require "jsonapi/types/version"
-
 module JSONAPI
   module Types
     include Dry::Types.module
@@ -29,3 +27,4 @@ require "jsonapi/types/document"
 require "jsonapi/types/failure"
 require "jsonapi/types/success"
 require "jsonapi/types/info"
+require "jsonapi/types/version"
